@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="Main">
+        <h2>This Program is created by</h2>
+        <h1>Abdullah Ansari</h1>
     <div id="calculator">
+        
         <input type="text" id="display" readonly>
         <button onclick="clearDisplay()">C</button>
         <button onclick="addToDisplay('+')">+</button>
@@ -27,7 +31,8 @@
         <button onclick="addToDisplay('0')">0</button>
         <button onclick="addToDisplay('.')">.</button>
       </div>
-      <script>
+    </div>
+      <script type="module">
         var display = document.getElementById('display');
 
             function addToDisplay(value) {
